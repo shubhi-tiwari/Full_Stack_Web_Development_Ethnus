@@ -1,0 +1,87 @@
+#table1 {
+    background-color: rgb(
+      114,
+      230,
+      228
+    ); /* Choose your desired background color */
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  #table1 th,
+  td {
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  #table1 tr {
+    background-color: rgb(114, 230, 228);
+  }
+  #table1 th {
+    width: 150px;
+  }
+  /* Adjust table1 width to stretch across the screen */
+  #table1 {
+    width: 100%;
+  }
+  
+  /* Center table2 on the screen */
+  #table2-container {
+    display: flex;
+    justify-content: center;
+  }
+  #table2 {
+    border-collapse: separate;
+    border-spacing: 15px; /* Set the gap between cells */
+  }
+  
+  #table2 {
+    border-collapse: separate;
+    border-spacing: 15px; /* Set the gap between cells */
+  }
+  
+  #table2 td {
+    width: 80px; /* Adjust cell width as needed */
+    height: 50px; /* Adjust cell height as needed */
+    text-align: center;
+    vertical-align: middle;
+    border: 3px solid rgb(104, 142, 8);
+  }
+  
+  /* Adjust the border-radius for individual cells as needed */
+  #table2 #box1 {
+    border-radius: 4px;
+  }
+  
+  #table2 #box2 {
+    border-radius: 8px;
+  }
+  
+  #table2 #box3 {
+    border-radius: 14px;
+  }
+  
+  #table2 #box4 {
+    border-radius: 10px;
+  }
+  
+  #table2 #box5 {
+    border-radius: 3px;
+  }
+  
+  #table2 #box6 {
+    border-radius: 12px;
+  }
+  
+  #table2 #box7 {
+    border-radius: 50%;
+  }
+  
+  #table2 #box8 {
+    border-radius: 5px;
+  }
+  
+  #table2 #box9 {
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }

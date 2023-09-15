@@ -1,0 +1,81 @@
+/* Create a flex container to hold the navigation bars */
+.flex-container {
+    display: flex;
+    height: 100vh; /* Take the full viewport height */
+  }
+  /* Style for the vertical navbar on the extreme left */
+  /* Style for the vertical navbar on the extreme left */
+  .vertical-navbar {
+    background-color: #add8e6; /* Light blue background */
+    color: #0000ff; /* Blue text color */
+    text-align: center;
+    padding: 15px; /* Adjust padding as needed */
+    position: relative;
+    width: 120px; /* Adjust the width as needed */
+  }
+  
+  .vertical-navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .vertical-navbar li {
+    margin-bottom: 10px;
+  }
+  
+  .vertical-navbar a {
+    text-decoration: none;
+    color: #0000ff; /* Blue text color */
+    display: block; /* Make the tabs block-level elements */
+    width: 100%; /* Set the width to 100% */
+    padding: 10px 0; /* Adjust padding as needed */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  }
+  
+  /* Hover effect for the vertical navbar tabs */
+  .vertical-navbar li:hover a {
+    background-color: #bb9d07; /* Yellow background on hover */
+    color: #ffffff; /* White text color on hover */
+  }
+  
+  /* Style for the thin horizontal navbar at the top right corner */
+  .horizontal-navbar {
+    background-color: #ccc; /* Grey color */
+    color: #333; /* Text color */
+    text-align: center;
+    padding: 10px; /* Thinner padding */
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  .horizontal-navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .horizontal-navbar li {
+    display: inline-block;
+    margin-right: -4px; /* Reduce the gap between tabs and add a border */
+  }
+  
+  .horizontal-navbar a {
+    text-decoration: none;
+    color: #333; /* Text color */
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #999; /* Border between tabs */
+    margin-right: -1px; /* Adjust for the border */
+  }
+  
+  /* Hover effect for the horizontal navbar */
+  .horizontal-navbar a:hover {
+    background-color: #444; /* Dark grey on hover */
+    color: #fff; /* Text color on hover */
+  }
+  
+  .content {
+    flex: 1; /* Take up the remaining space */
+    padding: 20px;
+    margin-left: 20px; /* Adjust margin as needed */
+  }
