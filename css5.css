@@ -1,0 +1,60 @@
+.box {
+    padding: 20px;
+    max-width: 630px;
+    height: 500px;
+    background-color: rgb(234, 247, 133);
+    border-style:dotted;
+}
+
+.box .para{
+    margin-left: 100px;
+}
+
+.para {
+    color: rgb(138, 28, 114);
+}
+
+.box hr {
+    border-top: dotted;
+    border-top-color: rgb(138, 28, 114);
+}
+
+.box {
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  }
+  
+  .navbar {
+    background-color: rgb(234, 247, 133); 
+    text-align: center;
+    padding: 20px 0; 
+    position: relative;
+    width: 300px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin-bottom: 0; /* Remove margin */
+  }
+  
+  .navbar a {
+    text-decoration: none; 
+    color: #000000; 
+    display: block; 
+    width: 100%; 
+    padding: 10px 0; 
+    border-right: 30px solid #000000; 
+  }
+
+  .navbar a:hover {
+    background-color: #bb9d07; 
+    color: #ffffff; 
+  }
+  li {
+    background: white;
+    margin: 10px;
+  }

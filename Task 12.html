@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 7 CSS</title>
+    <link rel="stylesheet" type="text/css" href="css7.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-input-container">
+            <label for="name" class="form-label">Name:</label>
+            <input type="text" id="name" class="form-input" placeholder="Your Name">
+        </div>
+
+        <div class="form-input-container">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" id="email" class="form-input" placeholder="Your Email">
+        </div>
+
+        <div class="form-input-container">
+            <label for="password" class="form-label">Password:</label>
+            <input type="password" id="password" class="form-input" placeholder="Password">
+        </div>
+
+        <div class="form-input-container">
+            <label for="gender" class="form-label">Gender:</label>
+            <label><input type="radio" name="gender" value="male"> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label>
+            <label><input type="radio" name="gender" value="other"> Other</label>
+        </div>
+
+        <div class="form-input-container">
+            <label for="language" class="form-label">Language:</label>
+            <select id="language" class="form-select">
+                <option value="english">English</option>
+                <option value="spanish">Spanish</option>
+                <option value="french">French</option>
+            </select>
+        </div>
+
+        <div class="form-textarea-container">
+            <label for="about" class="form-label">About:</label>
+            <textarea id="about" class="form-textarea" placeholder="Tell us about yourself"></textarea>
+        </div>
+
+        <button class="register-button">Register</button>
+    </div>
+</body>
+</html>

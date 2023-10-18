@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #a22b55; /* Light maroon for the rest of the screen */
+    margin: 0;
+}
+
+.form-container {
+    background-color: #75203f; /* Maroon color for the form container */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto; /* Center horizontally with some top margin */
+}
+
+.form-input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-label {
+    text-align: left;
+    width: 25%;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.form-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-select {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-textarea-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; /* Align textarea to the top */
+    margin-bottom: 10px;
+}
+
+.form-textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    min-height: 100px; /* Minimum height for textarea */
+}
+
+.register-button {
+    background-color: #fff; /* White color for the register button */
+    color: #75203f; /* Maroon color for the text */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 270px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; /* Add margin to separate from previous element */
+}
